@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  background-color: #e5e5e5;
+  width: 1440px;
+  height: 840px;
+}
+.slide2 {
+  padding: 50px;
+  border: solid white;
+  width: 580px;
+  height: 650px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 50px rgba(4, 8, 19, 0.1);
+}
+.slide1 {
+  padding: 100px;
+  margin-top: 100px;
+}
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #737373;
+}
+h3 {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.8px;
+}
+#formcontainer {
+  height: 550px;
+}
+.firstcouple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondcouple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdcouple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.edit {
+  padding: 7.5px;
+  margin-top: 10px;
+  border: 1px solid #2ec4b6;
+  border-radius: 2px;
+}
+
+select {
+  width: 77%;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+.active {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #2ec4b6;
+  border-radius: 2px;
+}
+
+#password-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #2ec4b6;
+  border-radius: 2px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #2ec4b6;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-color: #2ec4b6;
+  border-radius: 2px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+  padding-top: 10px;
+}
+a {
+  color: #2ec4b6;
+}
